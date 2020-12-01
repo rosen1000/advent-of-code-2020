@@ -1,0 +1,29 @@
+{
+  "name": "advent-of-code-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build-run": "tsc && node .",
+    "run": "node .",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosen1000/advent-of-code-2020.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosen1000/advent-of-code-2020/issues"
+  },
+  "homepage": "https://github.com/rosen1000/advent-of-code-2020#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10"
+  }
+}
