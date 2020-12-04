@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs';
 import { join } from 'path';
 
-let data = readFileSync(join(__dirname, '../data/day3.txt'))
+const data = readFileSync(join(__dirname, '../data/day3.txt'))
 	.toString()
 	.split('\r\n')
 	.map((i) => i.split(''));
